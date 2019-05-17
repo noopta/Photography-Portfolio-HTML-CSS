@@ -188,6 +188,22 @@ h2{
   font-weight: 500;
 }
 
+@media only screen and (max-width: 500px) {
+	
+h2{
+  position:relative;  
+ right: -650px;
+  top:160px;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
+
+	
+}
+
 h3{
   font-family: monospace;
   color:white;
@@ -365,6 +381,25 @@ body {
     blink-caret .5s step-end infinite;
 }
 
+@media only screen and (max-width: 500px) {
+.typewriter h1 {
+  color: #fff;
+  padding-left: 780px;
+  font-size:30px;
+  font-weight: bold;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -392,6 +427,30 @@ body {
   
 }
 
+@media only screen and (max-width: 500px) {
+
+.color-block{
+  position: absolute;
+  font-size: 45px;
+  font-family: arial;
+  opacity: 1.0;
+  font-weight: 700px;
+  background-color:#FF7F00	;
+  top: 350px;
+  width: 1365px;
+  height:310px;
+  color: black;
+  left: 340px;
+  
+}
+	
+
+
+}
+
+
+
+
 .second-block{
   position: absolute;
   font-size: 45px;
@@ -406,6 +465,24 @@ body {
   left: -450px; 
 }
 
+@media only screen and (max-width: 500px) {
+
+	.second-block{
+   position: absolute;
+  font-size: 45px;
+  font-family: arial;
+  opacity: 1.0;
+  font-weight: 700px;
+  background-color:white	;
+  top: 650px;
+  width: 1365px;
+  height:750px;
+  color: black;
+  left: 340px;
+	}
+  
+}
+
 .fourth-block{
   position: absolute;
   font-size: 45px;
@@ -414,12 +491,32 @@ body {
   font-weight: 700px;
   background-color: white;
   top: 1950px;
-  width: 1305px;
+  width: 1275px;
   height:250px;
   color: black;
-  left: -480px;
+  left: -450px;
 }
 
+
+@media only screen and (max-width: 500px) {
+  
+  .fourth-block{
+  position: absolute;
+  font-size: 45px;
+  font-family: arial;
+  opacity: 1.0;
+  font-weight: 700px;
+  background-color: white;
+  top: 1950px;
+  width: 1365px;
+  height:250px;
+  color: black;
+  left: 340px;
+}
+
+  
+  
+}
 
 
 .inner-block{
@@ -437,6 +534,27 @@ body {
   border-radius: 25px; 
 }
 
+@media only screen and (max-width: 500px) {
+  
+  .inner-block{
+  position: absolute;
+  font-size: 45px;
+  font-family: arial;
+  opacity: 1.0;
+  font-weight: 700px;
+  background-color:white	;
+  top: -100px;
+  left: 82px;
+  width: 1200px;
+  height:150px;
+  color: black;
+  border-radius: 25px; 
+}
+  
+  
+}
+
+
 
 
 .inner-block2{
@@ -447,7 +565,7 @@ body {
   font-weight: 700px;
   background-color:white;
   top: -100px;
-  left: 70px;
+  left: 40px;
   width: 1200px;
   height:150px;
   color: black;
@@ -470,6 +588,28 @@ body {
  
 }
 
+@media only screen and (max-width: 500px) {
+  
+  
+.third-block{
+  position: absolute;
+  font-size: 45px;
+  font-family: arial;
+  opacity: 1.0;
+  font-weight: 700px;
+  background-color:#FF7F00	;
+  top: 1350px;
+  width: 1365px;
+  height:750px;
+  color: black;
+  left: 340px;
+ 
+}
+
+  
+  
+}
+
 
 
 nav {
@@ -482,6 +622,18 @@ nav {
   margin: 0 auto;
   padding: 60px 0;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+nav{
+	display: none;
+}
+
+
+}
+
+
 
 nav ul {
   position:relative; 
@@ -1004,6 +1156,5 @@ CSS
   clear: both;
   display: table;
 }
-
 
 
