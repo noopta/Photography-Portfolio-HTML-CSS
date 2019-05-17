@@ -188,7 +188,7 @@ h2{
   font-weight: 500;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
 	
 h2{
   position:relative;  
@@ -381,7 +381,7 @@ body {
     blink-caret .5s step-end infinite;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
 .typewriter h1 {
   color: #fff;
   padding-left: 780px;
@@ -427,7 +427,7 @@ body {
   
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
 
 .color-block{
   position: absolute;
@@ -465,7 +465,7 @@ body {
   left: -450px; 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
 
 	.second-block{
    position: absolute;
@@ -498,7 +498,7 @@ body {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   
   .fourth-block{
   position: absolute;
@@ -534,7 +534,7 @@ body {
   border-radius: 25px; 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   
   .inner-block{
   position: absolute;
@@ -588,7 +588,7 @@ body {
  
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   
   
 .third-block{
@@ -624,7 +624,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
 
 nav{
 	display: none;
