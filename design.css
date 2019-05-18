@@ -61,9 +61,26 @@ h12{
   font-size: 20px;
   position: relative;
   top: 233px;
-  left: -300px;
+  left: -260px;
   color: #FF7F00;
   font-family: monospace;
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	h12{
+		
+		  font-weight: 500px;
+  font-size: 20px;
+  position: relative;
+  top: 233px;
+  left: -340px;
+  color: #FF7F00;
+  font-family: monospace;
+		
+	}
+	
 }
 
 h13{
@@ -101,7 +118,7 @@ h16{
   color: #FF7F00;
   font-family: monospace;
   font-weight: 200px;
-  left: 850px;
+  left: 900px;
   top: 385px;
 }
 
