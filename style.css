@@ -25,6 +25,24 @@ header {
 }
 
 
+
+@media screen and (max-width: 900px) {
+ 
+
+ header {
+    height: 100px;
+    line-height: 100px; 
+    position: fixed;
+    z-index: 1;
+    width: 80%;
+	
+}
+
+    
+}
+
+
+
 ul {
     list-style: none;
 
@@ -56,6 +74,19 @@ header nav ul li a {
     transition: all .5s ease-in;
 }
 
+@media screen and (max-width: 900px) {
+
+header nav ul li a {
+    padding-right: 25px;
+    font-weight: bold;
+    color: white;
+    transition: all .5s ease-in;
+	display: none;
+}
+
+    
+}
+
 header nav ul li a:hover {
     text-decoration: none;
     color: orange;
@@ -65,6 +96,20 @@ header nav ul li a:hover {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/rs.png);
     background-size: 100% 100%;
 }
+
+
+@media screen and (max-width: 900px) {
+
+.image1 {
+    background-image: none;
+    background-size: 100% 100%;
+}
+
+
+    
+}
+
+
 
 .slider, .slider ul, .slider ul li {
     height: 840px;
@@ -78,6 +123,18 @@ header nav ul li a:hover {
     margin-top: 270px;
 	padding-bottom: 160px;
 	
+}
+
+@media screen and (max-width: 900px) {
+
+
+.slider h2 {
+    font-weight: bold;
+	color: black;
+    margin-top: 270px;
+	padding-bottom: 160px;
+	
+}
 }
 
 .slider p{
@@ -127,9 +184,34 @@ header nav ul li a:hover {
     
 }
 
+
+@media screen and (max-width: 900px) {
+    .image2 {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(255,0,0));
+    background-size: 100% 100%;
+    
+}
+
+    
+}
+
+
+
 .image3 {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/rs3.png);
     background-size: 100% 100%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+.image3 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,128));
+    background-size: 100% 100%;
+}
+
+    
 }
 
 .slider i {
@@ -142,6 +224,7 @@ header nav ul li a:hover {
     padding: 100px 0px 200px 0px;
     text-align: center;
 }
+
 
 .sub-heading {
     position: relative;
@@ -191,6 +274,26 @@ header nav ul li a:hover {
     letter-spacing: 0.025em;
 }
 
+
+
+
+@media screen and (max-width: 900px) {
+ 
+.sub-heading p {
+    color: #818181;
+    display: inline-block;
+    padding: 0px 0px 20px;
+	font-size: 20px;
+	width: 70%;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+
+}
+
+
 .intro-block {
     position: relative;
     background-color: #f7f7f7;
@@ -199,6 +302,25 @@ header nav ul li a:hover {
     padding: 70px 25px 40px;
 
 }
+
+
+
+
+@media screen and (max-width: 900px) {
+ 
+ .intro-block {
+    position: relative;
+    background-color: #f7f7f7;
+    margin: 140px 0px 0px;
+    text-align: center;
+    padding: 70px 25px 40px;
+	width: 90%;
+
+}
+
+
+}
+
 
 .intro-block:hover, .intro-block.active {
     background: rgb(60, 195, 182); 
@@ -281,6 +403,22 @@ header nav ul li a:hover {
     background-size: 100% 90%;
     padding: 100px 0;
 }
+
+@media screen and (max-width: 900px) {
+ 
+.area {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/image5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 90%;
+    padding: 100px 0;
+	width: 90%;
+}
+
+
+}
+
+
 
 .title h2, p {
     color: white;
@@ -433,6 +571,8 @@ header nav ul li a:hover {
     position: relative;
 }
 
+
+
 .list li {
     position: relative;
     padding-left: 80px;
@@ -445,6 +585,9 @@ header nav ul li a:hover {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+
+
 
 .feature-details p {
     color: black;
@@ -468,6 +611,18 @@ header nav ul li a:hover {
     
 }
 
+@media screen and (max-width: 900px) {
+
+.icon {
+    position: absolute; 
+    left: 0;
+	width: 20%;
+    
+}
+
+    
+}
+
 .icon i {
     border: 2px solid rgb(60, 195, 182);
     border-radius: 50%;
@@ -479,6 +634,20 @@ header nav ul li a:hover {
     height: 64px;
     line-height: 64px;
 }
+
+.visibleIMG{
+	display: visible;
+}
+
+@media screen and (max-width: 900px) {
+ 
+
+.visibleIMG{
+	display: none;
+}
+
+}
+
 
 .testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/car.jpg);
